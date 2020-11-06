@@ -40,13 +40,13 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
     }
     //TODO: calculate total
 
-    fun calculatePremium(view: View) {
-        val radioGroupGender: RadioGroup = findViewById(R.id.radioGroupGender)
-        val gender = radioGroupGender.checkedRadioButtonId
-        if (gender == R.id.radioButtonMale) {
+    //fun calculatePremium(view: View) {
+        //val radioGroupGender: RadioGroup = findViewById(R.id.radioGroupGender)
+        //val gender = radioGroupGender.checkedRadioButtonId
+        //if (gender == R.id.radioButtonMale) {
             //TODO: calculate male premium
-        }
-    }
+        //}
+    //}
 
     override fun onItemSelected(parent: AdapterView<*>?, view: View?, index: Int, id: Long) {
         //Toast.makeText(this, "Item selected = ${index}", Toast.LENGTH_SHORT).show()
